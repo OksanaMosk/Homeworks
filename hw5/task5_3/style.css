@@ -1,0 +1,80 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #1e1e1e;
+}
+.burger_runner {
+  width: 100%;
+  height: 150px;
+  overflow: visible;
+  position: relative;
+  background: #d1ef53;
+}
+
+.burger_img {
+  width: 80px;
+  position: absolute;
+  top: 80px;
+  left: -100px;
+  animation: burger 6s linear infinite;
+  transform-origin: center center;
+}
+
+@keyframes burger {
+  0% {
+    left: -100px;
+    transform: translateY(0) rotate(720deg);
+  }
+  10% {
+    transform: translateY(-30px) rotate(0deg);
+  }
+  15% {
+    transform: translateY(0) rotate(0deg);
+  }
+  25% {
+    transform: translateY(-60px) rotate(0deg);
+  }
+  30% {
+    transform: translateY(0) rotate(0deg);
+  }
+  40% {
+    transform: translateY(-90px) rotate(0deg);
+  }
+  45% {
+    transform: translateY(0) rotate(0deg);
+  }
+  50% {
+    transform: translateY(-100px) rotate(0deg);
+  }
+  55% {
+    transform: translateY(0) rotate(0deg);
+  }
+  60% {
+    transform: translateY(-100px) rotate(0deg);
+  }
+  65% {
+    transform: translateY(0) rotate(0deg);
+  }
+  70% {
+    transform: translateY(-100px) rotate(0deg);
+  }
+  75% {
+    transform: translateY(0) rotate(0deg);
+  }
+  80% {
+    left: 80%;
+    transform: translateY(100px) rotate(0deg);
+  }
+  90% {
+    left: 90%;
+    transform: translateY(0) rotate(360deg);
+  }
+  95% {
+    left: 95%;
+    transform: translateY(200px) rotate(720deg);
+  }
+  100% {
+    left: 100%;
+    transform: translateY(300px) rotate(1080deg);
+  }
+}
