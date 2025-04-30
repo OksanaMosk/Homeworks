@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Task 9_2</title>
+    <style>
+      * {
+        padding: 0;
+        margin: 0;
+      }
+
+      .grid {
+        height: 100vh;
+        display: grid;
+        grid-template-columns: 1fr 1.7fr 1fr;
+        grid-template-rows: 1fr 2.6fr 1fr;
+        grid-template-areas:
+          "header header header"
+          "left center right"
+          "footer footer footer";
+      }
+      header {
+        grid-area: header;
+        background-color: #d9d9d9;
+      }
+      footer {
+        grid-area: footer;
+        background-color: #d9d9d9;
+      }
+
+      .grid aside:nth-child(2) {
+        grid-area: left;
+        background: #c0bdbd;
+      }
+      .grid section:nth-child(3) {
+        grid-area: center;
+        background: #a4a4a4;
+      }
+      .grid aside:nth-child(4) {
+        grid-area: right;
+        background: #c0bdbd;
+      }
+    </style>
+  </head>
+
+  <body>
+    <div class="grid">
+      <header></header>
+
+      <aside></aside>
+      <section></section>
+      <aside></aside>
+
+      <footer></footer>
+    </div>
+  </body>
+</html>

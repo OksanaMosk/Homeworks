@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Task 9_5</title>
+    <style>
+      * {
+        padding: 0;
+        margin: 0;
+      }
+
+      .grid {
+        height: 100vh;
+        display: grid;
+        grid-template-columns: 1.46fr 1fr;
+        grid-template-rows: 0.5fr 4.45fr 3.78fr 1.11fr 1.33fr;
+        grid-template-areas:
+          "header header"
+          "section-big  right-top"
+          "section-big  right-bottom"
+          "section-small  section-small"
+          "footer footer";
+      }
+      header {
+        grid-area: header;
+        background-color: #d9d9d9;
+      }
+      footer {
+        grid-area: footer;
+        background-color: #afa9a9;
+      }
+
+      .grid section:nth-child(2) {
+        grid-area: section-big;
+        background: #a4a4a4;
+      }
+      .grid aside:nth-child(3) {
+        grid-area: right-top;
+        background: #7f7a7a;
+      }
+      .grid aside:nth-child(4) {
+        grid-area: right-bottom;
+        background: #615050;
+      }
+      .grid section:nth-child(5) {
+        grid-area: section-small;
+        background: #d9d9d9;
+      }
+    </style>
+  </head>
+
+  <body>
+    <div class="grid">
+      <header></header>
+
+      <section></section>
+      <aside></aside>
+      <aside></aside>
+      <section></section>
+
+      <footer></footer>
+    </div>
+  </body>
+</html>
