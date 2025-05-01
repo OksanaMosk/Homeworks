@@ -1,0 +1,20 @@
+body {
+  background-color: #f0f2f4;
+  margin: 0;
+}
+
+h2 {
+  margin-bottom: 30px;
+  margin-left: 30px;
+  color: #333;
+  font-size: 28px;
+}
+
+p {
+  display: inline;
+  margin: 0 5px 0 auto;
+  background-color: #e3e3e5;
+  text-align: center;
+  padding: 14px;
+  font-size: 64px;
+}

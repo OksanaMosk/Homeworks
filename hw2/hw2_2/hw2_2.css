@@ -1,0 +1,27 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.wrapper {
+  height: 100vh;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  gap: 40px;
+  background-color: rgb(250, 217, 217);
+}
+
+.circle {
+  width: 100px;
+  height: 100px;
+  background-color: rgb(240, 44, 44);
+  transition: 1s;
+  cursor: pointer;
+}
+
+.circle:hover {
+  background-color: gray;
+  border-radius: 50%;
+  transition: 1s;
+}

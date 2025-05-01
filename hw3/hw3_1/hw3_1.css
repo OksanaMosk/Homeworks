@@ -1,0 +1,35 @@
+body {
+  margin: 2%;
+}
+
+header,
+section,
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 36px;
+  color: #b4bdde;
+}
+
+header {
+  height: 50vh;
+  background-color: #356bb5;
+}
+
+main {
+  display: flex;
+  justify-content: space-between;
+  margin: 2% 0;
+}
+
+section {
+  height: 50vh;
+  width: 32%;
+  background-color: #234575;
+}
+
+footer {
+  height: 90vh;
+  background-color: #356bb5;
+}

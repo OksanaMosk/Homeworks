@@ -1,0 +1,51 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.grid {
+  display: grid;
+  height: 100vh;
+  grid-template-columns: 1fr 1.7fr 1fr;
+  grid-template-rows: 1fr 1.2fr 1.4fr 1fr;
+  grid-template-areas:
+    "header header header"
+    "left top right"
+    "left bottom right"
+    "footer footer footer";
+}
+
+header,
+footer {
+  background-color: #d9d9d9;
+}
+
+header {
+  grid-area: header;
+}
+
+footer {
+  grid-area: footer;
+}
+
+aside {
+  background-color: #c0bdbd;
+}
+
+.left {
+  grid-area: left;
+}
+
+.right {
+  grid-area: right;
+}
+
+.top {
+  grid-area: top;
+  background-color: #827878;
+}
+
+.bottom {
+  grid-area: bottom;
+  background-color: #b7adad;
+}

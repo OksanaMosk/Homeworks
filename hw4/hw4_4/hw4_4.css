@@ -1,0 +1,51 @@
+* {
+  padding: 0;
+  margin: 0;
+
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  font-size: 45px;
+  color: #fff;
+}
+
+header,
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 20vh;
+}
+
+header {
+  background-color: #8d8484;
+}
+
+footer {
+  background-color: #bdbdbd;
+}
+
+header p,
+footer p {
+  color: #000;
+}
+
+main {
+  display: flex;
+  height: 60vh;
+}
+
+article {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 33.333%;
+  width: 71vw;
+}
+
+div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50%;
+  width: 29vw;
+}

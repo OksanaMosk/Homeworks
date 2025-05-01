@@ -1,0 +1,57 @@
+body {
+  background-color: #f7f7f7;
+  margin: 0;
+  padding: 20px;
+}
+
+h1 {
+  text-align: center;
+  color: darkgray;
+  font-size: 48px;
+}
+
+.actor-container {
+  margin: 0 auto;
+  max-width: 1400px;
+  display: block;
+  text-align: center;
+}
+
+.actor {
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  width: 200px;
+  text-align: center;
+  padding: 20px;
+  margin: 0 10px;
+  transition: transform 0.3s, box-shadow 0.3s;
+  cursor: pointer;
+  display: inline-block;
+}
+
+.actor:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+img {
+  width: 150px;
+  height: 180px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 15px;
+}
+
+h2 {
+  font-weight: bold;
+  font-size: 24px;
+  margin: 10px 0;
+  color: #333;
+}
+
+p {
+  color: darkgray;
+  font-size: 16px;
+  margin: 5px 0;
+}

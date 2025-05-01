@@ -1,0 +1,16 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+.grid {
+  display: grid;
+  grid-template-rows: 22vh 56vh 22vh;
+}
+header,
+footer {
+  background-color: #d9d9d9;
+}
+
+main {
+  background-color: #a4a4a4;
+}
